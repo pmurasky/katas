@@ -1,9 +1,10 @@
-import static org.junit.Assert.*;
+package murasky.tennis;
+
+import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -83,16 +84,16 @@ public class TennisTest {
         checkAllScores(game);
     }
 
-    @Test
-    public void checkAllScoresTennisGame2() {
-        TennisGame2 game = new TennisGame2("player1", "player2");
-        checkAllScores(game);
-    }
-
-    @Test
-    public void checkAllScoresTennisGame3() {
-        TennisGame3 game = new TennisGame3("player1", "player2");
-        checkAllScores(game);
-    }
+//    @Test
+//    public void checkAllScoresTennisGame2() {
+//        TennisGame2 game = new TennisGame2("player1", "player2");
+//        checkAllScores(game);
+//    }
+//
+//    @Test
+//    public void checkAllScoresTennisGame3() {
+//        TennisGame3 game = new TennisGame3("player1", "player2");
+//        checkAllScores(game);
+//    }
 
 }

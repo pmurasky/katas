@@ -1,3 +1,4 @@
+import murasky.tennis.TennisGame;
 
 public class TennisGame2 implements TennisGame
 {
